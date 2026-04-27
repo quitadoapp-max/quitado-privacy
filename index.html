@@ -1,113 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Quitado — Política de Privacidade e Termos de Uso</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quitado – Política de Privacidade</title>
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-      line-height: 1.6;
-      color: #222;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0E0F12;
+      color: #FFFFFF;
+      min-height: 100vh;
     }
-    h1, h2 {
-      color: #111;
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: -120px;
+      left: -120px;
+      width: 320px;
+      height: 320px;
+      background: rgba(232, 210, 122, 0.16);
+      filter: blur(90px);
+      border-radius: 50%;
+      z-index: -1;
     }
-    hr {
-      margin: 40px 0;
+
+    body::after {
+      content: "";
+      position: fixed;
+      bottom: -160px;
+      right: -140px;
+      width: 360px;
+      height: 360px;
+      background: rgba(53, 196, 106, 0.12);
+      filter: blur(100px);
+      border-radius: 50%;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 28px 18px 48px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .app-icon {
+      width: 76px;
+      height: 76px;
+      border-radius: 22px;
+      margin-bottom: 14px;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.45);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      color: #E8D27A;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      color: rgba(255,255,255,0.58);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, rgba(21,24,29,0.96), rgba(14,15,18,0.96));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 22px;
+      padding: 22px;
+      margin-bottom: 18px;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 22px;
+      font-weight: 900;
+      color: #FFFFFF;
+    }
+
+    h3 {
+      margin: 22px 0 8px;
+      font-size: 16px;
+      font-weight: 900;
+      color: #E8D27A;
+    }
+
+    p, li {
+      color: rgba(255,255,255,0.72);
+      font-size: 14px;
+      line-height: 1.65;
+      font-weight: 600;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 8px;
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(255,255,255,0.08);
+      margin: 22px 0;
+    }
+
+    .email {
+      color: #35C46A;
+      font-weight: 900;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 28px;
+      color: rgba(255,255,255,0.40);
+      font-size: 12px;
+      font-weight: 700;
     }
   </style>
 </head>
+
 <body>
+  <main class="container">
 
-<h1>Quitado — Controle de Contas</h1>
-<p><strong>Última atualização:</strong> [19/03/2026]</p>
+    <section class="hero">
+      <!-- Se quiser, troque pelo caminho do seu ícone -->
+      <!-- <img src="icon.png" class="app-icon" alt="Ícone do Quitado"> -->
 
-<hr>
+      <h1>Quitado</h1>
+      <div class="subtitle">Política de Privacidade e Termos de Uso</div>
+      <div class="subtitle">Última atualização: 19/03/2026</div>
+    </section>
 
-<h2>Política de Privacidade</h2>
+    <section class="card">
+      <h2>Política de Privacidade</h2>
 
-<p>O aplicativo <strong>Quitado — Controle de Contas</strong> respeita a sua privacidade e se compromete a proteger suas informações.</p>
+      <p>
+        O aplicativo <strong>Quitado – Controle de Contas</strong> respeita a sua
+        privacidade e se compromete a proteger suas informações.
+      </p>
 
-<h3>1. Informações coletadas</h3>
-<p>Podemos coletar:</p>
-<ul>
-  <li>Nome e e-mail (fornecidos no cadastro ou login com Google)</li>
-  <li>Dados inseridos no aplicativo (contas, valores, anotações financeiras)</li>
-  <li>Informações técnicas necessárias para funcionamento</li>
-</ul>
+      <h3>1. Informações coletadas</h3>
+      <p>Podemos coletar os seguintes dados:</p>
+      <ul>
+        <li>Nome e e-mail fornecidos no login com Google.</li>
+        <li>Dados inseridos no aplicativo, como contas, valores e informações financeiras.</li>
+        <li>Informações técnicas necessárias para o funcionamento do app.</li>
+      </ul>
 
-<h3>2. Uso das informações</h3>
-<p>Utilizamos os dados para:</p>
-<ul>
-  <li>Funcionamento do aplicativo</li>
-  <li>Sincronização de dados (quando aplicável)</li>
-  <li>Melhoria da experiência do usuário</li>
-</ul>
+      <h3>2. Uso das informações</h3>
+      <p>Utilizamos os dados para:</p>
+      <ul>
+        <li>Funcionamento do aplicativo.</li>
+        <li>Sincronização e backup de dados, quando aplicável.</li>
+        <li>Melhoria da experiência do usuário.</li>
+      </ul>
 
-<h3>3. Armazenamento</h3>
-<p>Os dados podem ser armazenados:</p>
-<ul>
-  <li>No dispositivo do usuário</li>
-  <li>Em serviços seguros na nuvem (como Firebase)</li>
-</ul>
+      <h3>3. Armazenamento</h3>
+      <p>Os dados podem ser armazenados localmente no dispositivo do usuário e em serviços seguros na nuvem, como Firebase.</p>
 
-<h3>4. Compartilhamento de dados</h3>
-<p>Não vendemos ou compartilhamos dados pessoais com terceiros, exceto quando necessário para:</p>
-<ul>
-  <li>Funcionamento do aplicativo</li>
-  <li>Cumprimento de obrigações legais</li>
-</ul>
+      <h3>4. Compartilhamento de dados</h3>
+      <p>
+        Não vendemos dados pessoais. Dados podem ser compartilhados apenas quando
+        necessário para funcionamento do aplicativo ou cumprimento de obrigações legais.
+      </p>
 
-<h3>5. Login com Google</h3>
-<p>Ao utilizar login com Google, apenas informações básicas (nome e e-mail) são acessadas, conforme autorizado pelo usuário.</p>
+      <h3>5. Login com Google</h3>
+      <p>
+        Ao utilizar login com Google, apenas informações básicas, como nome e e-mail,
+        são acessadas conforme autorizado pelo usuário.
+      </p>
 
-<h3>6. Direitos do usuário</h3>
-<p>O usuário pode solicitar a exclusão dos seus dados a qualquer momento.</p>
+      <h3>6. Direitos do usuário</h3>
+      <p>O usuário pode solicitar a exclusão dos seus dados a qualquer momento.</p>
 
-<h3>7. Alterações</h3>
-<p>Esta política pode ser atualizada periodicamente.</p>
+      <h3>7. Alterações</h3>
+      <p>Esta política pode ser atualizada periodicamente.</p>
 
-<h3>8. Contato</h3>
-<p>Email: <strong>seuemail@email.com</strong></p>
+      <h3>8. Contato</h3>
+      <p>Email: <span class="email">seuemail@email.com</span></p>
+    </section>
 
-<hr>
+    <section class="card">
+      <h2>Termos de Uso</h2>
 
-<h2>Termos de Uso</h2>
+      <p>
+        Ao utilizar o aplicativo <strong>Quitado – Controle de Contas</strong>,
+        você concorda com os termos abaixo.
+      </p>
 
-<p>Ao utilizar o aplicativo <strong>Quitado — Controle de Contas</strong>, você concorda com os termos abaixo.</p>
+      <h3>1. Uso do aplicativo</h3>
+      <p>O aplicativo é destinado ao controle financeiro pessoal.</p>
 
-<h3>1. Uso do aplicativo</h3>
-<p>O aplicativo é destinado ao controle financeiro pessoal.</p>
+      <h3>2. Conta do usuário</h3>
+      <p>O usuário é responsável por manter a segurança da sua conta e informações.</p>
 
-<h3>2. Conta do usuário</h3>
-<p>O usuário é responsável por manter a segurança da sua conta.</p>
+      <h3>3. Responsabilidades</h3>
+      <p>
+        O aplicativo não se responsabiliza por decisões financeiras tomadas com base
+        nas informações registradas pelo usuário.
+      </p>
 
-<h3>3. Responsabilidades</h3>
-<p>O aplicativo não garante precisão absoluta dos dados financeiros e não substitui orientação profissional.</p>
+      <h3>4. Disponibilidade</h3>
+      <p>O funcionamento do aplicativo pode ser alterado ou interrompido sem aviso prévio.</p>
 
-<h3>4. Limitação de responsabilidade</h3>
-<p>O aplicativo não se responsabiliza por:</p>
-<ul>
-  <li>Perdas financeiras</li>
-  <li>Erros de uso</li>
-  <li>Indisponibilidade temporária</li>
-</ul>
+      <h3>5. Alterações</h3>
+      <p>Estes termos podem ser atualizados a qualquer momento.</p>
+    </section>
 
-<h3>5. Funcionalidades Premium</h3>
-<p>Algumas funcionalidades podem ser pagas. As condições serão informadas dentro do aplicativo.</p>
+    <footer>
+      © 2026 Quitado – Controle de Contas
+    </footer>
 
-<h3>6. Alterações</h3>
-<p>Os termos podem ser atualizados a qualquer momento.</p>
-
-<h3>7. Cancelamento</h3>
-<p>O usuário pode deixar de usar o aplicativo a qualquer momento.</p>
-
-<h3>8. Contato</h3>
-<p>Email: <strong>quitado.app@gmail.com</strong></p>
-
+  </main>
 </body>
 </html>
-
